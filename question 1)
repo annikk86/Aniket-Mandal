@@ -1,2 +1,14 @@
-n, m = map(int, input().split())
-print(n+m-2)
+#include<iostream>
+using namespace std;
+
+int main(){
+    unsigned long int n,m,a,b;
+    cout<<"Enter n"<<endl;
+    cin>>n;
+    cout<<"Enter m"<<endl;
+    cin>>m;
+    a=n-1;
+    b=m-1;
+    cout<<"The minimum no. of cuts required are "<<a+b;
+
+}
