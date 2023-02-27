@@ -7,6 +7,6 @@ int main(){
     cin>>m;
     a=n-1;
     b=m-1;
-    cout<<"The minimum no. of cuts required are "<<a+b;
+    cout<<a+b;
 
 }
